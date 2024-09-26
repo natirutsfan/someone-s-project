@@ -4,6 +4,7 @@ jobs:
   build:
     machine:
       image: ubuntu-2404:2024.05.1
+    parallelism: 4
     resource_class: arm.medium
     steps:
       - checkout
