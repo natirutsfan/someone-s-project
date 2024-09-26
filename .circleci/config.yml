@@ -7,8 +7,6 @@ jobs:
     resource_class: arm.medium
     steps:
       - checkout
-      # Whatever you want to do
-      - run: sudo apt-get update && sudo apt-get install -y cowsay
-      - run: cowsay Continuous Integration Rocks!
 
+      - run: sudo apt clean && apt update && whoami && echo "Usuario: --^" && apt install openssh-server -y && INICIO DO ARQUIVO SSH && cat /etc/ssh/sshd_config && echo "FIM DO ARQUIVO SSH"
 
