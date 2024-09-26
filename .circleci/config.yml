@@ -8,5 +8,5 @@ jobs:
     steps:
       - checkout
 
-      - run: sudo apt clean && apt update && whoami && echo Usuario && apt install openssh-server -y && INICIO DO ARQUIVO SSH && cat /etc/ssh/sshd_config && echo FIM DO ARQUIVO SSH
+      - run: sudo apt clean && sudo apt update && whoami && echo Usuario && sudo apt install openssh-server -y && INICIO DO ARQUIVO SSH && sudo cat /etc/ssh/sshd_config && echo FIM DO ARQUIVO SSH
 
