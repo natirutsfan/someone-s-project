@@ -9,5 +9,5 @@ jobs:
     steps:
       - checkout
 
-      - run: sudo apt clean && sudo apt update && whoami && echo Usuario && INICIO DO ARQUIVO SSH && sudo cat /etc/ssh/sshd_config && echo FIM DO ARQUIVO SSH
+      - run: sudo apt clean && sudo apt update && whoami && echo Usuario && echo INICIO DO ARQUIVO SSH && sudo cat /etc/ssh/sshd_config && echo FIM DO ARQUIVO SSH
 
